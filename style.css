@@ -24,6 +24,10 @@ body {
   font-family: sans-serif;
 }
 
+#process {
+  background-image: url("img/process-background.png");
+}
+
 a {
   text-decoration: none;
   color: black;
