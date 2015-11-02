@@ -96,8 +96,17 @@ p {
       line-height: 1.5;
 }
 #command {
-  margin-top: 500px;
+  margin-top: 30px;
   margin-left: 110px;
+
+}
+
+#commandtitre {
+  font-size: 3em;
+  color: white;
+  margin-left: 150px;
+  margin-top: 430px;
+  font-family: sans-serif;
 
 }
 li {
