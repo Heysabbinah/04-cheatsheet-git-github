@@ -1,9 +1,11 @@
 body {
   background-image: url("img/git-back.jpg");
   background-repeat: no-repeat;
+  background-color: black;
   margin: auto;
   width: auto;
   position: absolute;z-index: 1
+
 
 }
 #container {
@@ -31,7 +33,7 @@ body {
   font-size: 3em;
   color: black;
   margin-left: 150px;
-  margin-top: 50px;
+  margin-top: 60px;
   font-family: sans-serif;
 
 }
@@ -71,7 +73,7 @@ body {
 .columns {
     width: 1000px;
     margin-left: 120px;
-    margin-top: 280px;
+    margin-top: 210px;
 	  -webkit-columns: 6;
 		-moz-columns: 6;
 		columns: 6;
@@ -92,4 +94,22 @@ p {
       display: inline-block;
       width: 100%;
       line-height: 1.5;
+}
+#command {
+  margin-top: 500px;
+  margin-left: 110px;
+
+}
+li {
+  line-height: 2;
+  font-size: 1.2em;
+  color: white;
+  font-family: sans-serif;
+  list-style: none;
+
+}
+span{
+  color: rgb(255, 197, 143);
+  font-weight: bold;
+  font-size: 1em;
 }
