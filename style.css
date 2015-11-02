@@ -1,7 +1,9 @@
 body {
   background-image: url("img/git-back.jpg");
-  height: 100%;
   background-repeat: no-repeat;
+  margin: auto;
+  width: auto;
+  position: absolute;z-index: 1
 
 }
 #container {
@@ -16,26 +18,44 @@ body {
   font-family: sans-serif;
 }
 
-#process {
-  margin-top: 100px;
+/*#process {
+  margin-top: 10px;
   height:606px;
   width: 1280px;
-  background-image: url("img/process-background.png");
-  background-repeat: no-repeat;
+  float: left;
   position: absolute; z-index: 1;
+  overflow: hidden;
 
-}
-#process p {
-  font-size: 2em;
+}*/
+#processtitre {
+  font-size: 3em;
   color: black;
-
+  margin-left: 150px;
+  margin-top: 50px;
+  font-family: sans-serif;
 
 }
 
-a {
-  text-decoration: none;
-  color: black;
+/*.process1 {
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 2;
+  color: white;
+  font-family: sans-serif;
+  margin-left: 150px;
+  margin-top: 300px;
+  display: inline-block;
 }
+.process2 {
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 2;
+  color: white;
+  font-family: sans-serif;
+  margin-left: 180px;
+  margin-top: 0px;
+  display: inline-block;
+}*/
 
 #title {
   height: 100px;
@@ -46,4 +66,30 @@ a {
   font-size: 4.5em;
   font-weight: bold;
   font-family: sans-serif;
+}
+
+.columns {
+    width: 1000px;
+    margin-left: 120px;
+    margin-top: 280px;
+	  -webkit-columns: 6;
+		-moz-columns: 6;
+		columns: 6;
+    -webkit-column-gap: 3em;
+    -moz-column-gap: 3em;
+    column-gap: 3em;
+    /*-webkit-column-rule: 0.2em dotted #777;
+    -moz-column-rule: 0.2em dotted #777;
+    column-rule: 0.2em dotted #777;*/
+    position: absolute;z-index: 2;
+
+}
+
+p {
+			color: white;
+			padding: 30px;
+			margin: 0;
+      display: inline-block;
+      width: 100%;
+      line-height: 1.5;
 }
