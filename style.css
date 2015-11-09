@@ -65,7 +65,7 @@ a {
 aside {
     float: left;
     margin-left: -15%;
-    margin-top: -10%;
+    margin-top: -7%;
     display: inline-block;
 }
 article {
@@ -79,22 +79,47 @@ article p {
     font-weight: normal;
 }
 .second {
-    padding-top: 16%;
+    padding-top: 19%;
 }
 .third {
-    padding-top: 15%;
+    padding-top: 18%;
 }
 span{
-  color: rgb(86, 5, 130);
+  /*color: white;*/
+  color: rgb(160, 3, 168);
+
   font-weight: bold;
   font-size: 1em;
 }
+.violet {
+    color: rgb(160, 3, 168);
+    font-weight: bold;
+    margin: 0.5%;
+}
 
 #command {
-        margin-top: -7%;
+        margin-top: -10%;
+        padding-top: 3%;
         background-color: black;
         width: 100%;
+        vertical-align: top;
+        float: left;
+        overflow: hidden;
 }
+#command ul {
+    margin-left: -3%;
+}
+#command li {
+
+      line-height: 2;
+      font-size: 0.8em;
+      color: white;
+      font-family: sans-serif;
+      list-style: none;
+      font-weight: lighter;
+      margin: 0 auto;
+
+    }
 
 }
 
