@@ -1,124 +1,153 @@
 body {
-  background-image: url("img/git-back.jpg");
-  background-repeat: no-repeat;
-  background-color: black;
-  margin: auto;
-  width: auto;
-  position: absolute;z-index: 1
-
+    background-color:#c7c7c7;
+    margin: 0 auto;
 
 }
 #container {
-  margin-left: 150px;
-}
-
-#accueil {
-  margin-top: 70px;
-  color: white;
-  font-size: 1.6em;
-  font-weight: bold;
-  font-family: sans-serif;
-}
-
-/*#process {
-  margin-top: 10px;
-  height:606px;
-  width: 1280px;
-  float: left;
-  position: absolute; z-index: 1;
-  overflow: hidden;
-
-}*/
-#processtitre {
-  font-size: 3em;
-  color: black;
-  margin-left: 150px;
-  margin-top: 60px;
-  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
-/*.process1 {
-  font-size: 1em;
-  font-weight: bold;
-  line-height: 2;
-  color: white;
-  font-family: sans-serif;
-  margin-left: 150px;
-  margin-top: 300px;
-  display: inline-block;
-}
-.process2 {
-  font-size: 1em;
-  font-weight: bold;
-  line-height: 2;
-  color: white;
-  font-family: sans-serif;
-  margin-left: 180px;
-  margin-top: 0px;
-  display: inline-block;
-}*/
+/*/////////////////////////////     CSS SMARTPHONE     ////////////////////////////////////////////
+//                                                                                               //
+//////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+@media all and (min-width: 320px) {  /*--------ici media css pr ecran)*/
+body {
+    background-image: url("img/git_smart_back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 #title {
-  height: 100px;
-  margin-left: 250px;
-  margin-top: 180px;
-  display: inline-block;
-  color: rgb(41, 41, 41);
-  font-size: 4.5em;
-  font-weight: bold;
-  font-family: sans-serif;
+                height: 15%;
+                margin-left: 35%;
+                margin-top: 12%;
+                color: rgb(41, 41, 41);
+                font-size: 1.5em;
+                font-weight: bold;
+                font-family: sans-serif;
 }
 
-.columns {
-    width: 1000px;
-    margin-left: 120px;
-    margin-top: 210px;
-	  -webkit-columns: 6;
-		-moz-columns: 6;
-		columns: 6;
-    -webkit-column-gap: 3em;
-    -moz-column-gap: 3em;
-    column-gap: 3em;
-    /*-webkit-column-rule: 0.2em dotted #777;
-    -moz-column-rule: 0.2em dotted #777;
-    column-rule: 0.2em dotted #777;*/
-    position: absolute;z-index: 2;
+nav {
+                margin-top: 2.5%;
+                display: inline-block;
+                }
 
-}
-
-p {
-			color: white;
-			padding: 30px;
-			margin: 0;
-      display: inline-block;
-      width: 100%;
-      line-height: 1.5;
-}
-#command {
-  margin-top: 30px;
-  margin-left: 110px;
+.home {
+                color: rgb(0, 0, 0);
+                font-size: 0.7em;
+                font-weight: bold;
+                font-family: sans-serif;
+                margin-left: 18%;
+                margin-top: 12%;
+                background-color: rgb(0, 0, 0);
+                width: 85%;
+                padding: 3%;
+                display: inline-block;
+                float: left;
 
 }
 
-#commandtitre {
-  font-size: 3em;
-  color: white;
-  margin-left: 150px;
-  margin-top: 430px;
-  font-family: sans-serif;
+a {
+                text-decoration: none;
+                color: white;
+                padding: 4%;
+}
+
+#titre1 {
+        font-size: 1em;
+        font-weight: normal;
+
 
 }
+
+ul {
+    display: block;
+
+    margin-left: -40%;
+}
+
 li {
-  line-height: 2;
-  font-size: 1.2em;
-  color: white;
-  font-family: sans-serif;
-  list-style: none;
+    margin-left: -40%;
+    margin-top: 0 auto;
 
 }
-span{
-  color: rgb(255, 197, 143);
-  font-weight: bold;
-  font-size: 1em;
+li img {
+    margin-right: 2%;
+}
+
+li p {
+    font-size: 0.7em;
+    margin-left: 30%;
+
+}
+
+.first {
+
+    margin-top: -10%;
+}
+/*#list {
+
+                border: 2px solid white;
+                padding-bottom: 5%;
+                padding-top: 1%;
+                padding-left: 3%;
+                margin: 0 auto;
+                width: 90%;
+                height: 70%;
+                font-size: 1em;
+                font-weight: bold;
+                font-family: sans-serif;
+                color: white;
+
+}
+
+#list li {
+                display: inline-block;
+                padding-right: 2%;
+                padding-left: 0%;
+
+}
+
+li img {
+        display: inline-block;
+
+}
+*/
+
+.black {
+                font-size: 0.8em;
+                font-weight: bold;
+                font-family: sans-serif;
+                color: black;
+}
+
+ section {
+                margin-top: -5%;
+                margin-bottom: 2%;
+                color: black;
+                font-size: 1em;
+                font-weight: bold;
+                font-family: sans-serif;
+                margin-left: 35%;
+}
+}
+
+/*/////////////////////////////     CSS TABLETTE      ////////////////////////////////////////////
+//                                                                                               //
+//////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media all and (min-width: 599px) {
+
+}
+
+
+/*/////////////////////////////     CSS DESKTOP    ////////////////////////////////////////////
+//                                                                                               //
+//////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media all and (min-width: 900px) {
+
+
+
 }
