@@ -270,15 +270,13 @@ span{
               font-size: 1em;
             }
 
-
 }
-
 
 /*/////////////////////////////     CSS DESKTOP     ////////////////////////////////////////////
 //                                                                                               //
 //////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-    @media all and (min-width: 900px) {
+@media all and (min-width: 900px) {
 
 body {
             background-image: url("img/git-back.jpg");
@@ -286,35 +284,36 @@ body {
             background-size: 100%;
             background-color: black;
             z-index: 1
-}
+    }
 
 #title {
             height: 50%;
-            margin-left: 17%;
-            margin-top: 15%;
+            margin-left: 20%;
+            margin-top: 10%;
             display: inline-block;
             color: rgb(41, 41, 41);
             font-size: 5em;
             font-weight: bold;
             font-family: sans-serif;
             z-index: 2;
-}
+    }
 
 nav {
-            margin-top: 3%;
+            margin-top: 4.5%;
             display: inline-block;
             margin-right: 40%;
-}
+            margin-left: 6%;
+    }
 
 .home {
             color: rgb(0, 0, 0);
-            font-size: 1.2em;
+            font-size: 1em;
             font-weight: bold;
             font-family: sans-serif;
-            margin-left: 40%;
-            margin-top: 14%;
+            margin-left: 30%;
+            margin-top: 52%;
             background-color: rgb(0, 0, 0);
-            width: 80%;
+            width: 120%;
             padding: 4%;
 }
 
@@ -324,25 +323,25 @@ a {
             padding: 10%;
 }
 #titre1 {
-                font-size: 2em;
-                font-weight: normal;
-                margin-left:9%;
-                margin-top: 1%;
-}
+                    font-size: 3em;
+                    font-weight: normal;
+                    margin-left:10%;
+                    margin-top: 1%;
+    }
 
 aside {
             display: none;
 }
 
 article {
-                margin-left: 1%;
-                display: inline-block;
+                margin-left: 0%;
+                display: inline-flex;
                 width: 100%;
-                margin-top: 20%;
+                margin-top: 15%;
                 z-index: 3;
 }
 article p {
-                font-size: 1em;
+                font-size: 1.5em;
                 font-weight: normal;
                 display: inline-block;
 }
@@ -390,11 +389,14 @@ p {
                 width: 100%;
                 line-height: 1.5;
 }
-#command {
-                  margin-top: 10%;
-                  margin-left: 10%;
+#command li {
+              line-height: 2;
+              font-size: 1.5em;
+              color: white;
+              font-family: sans-serif;
+              list-style: none;
 
-}
+            }
 
     /*#commandtitre {
                   font-size: 3em;
@@ -404,14 +406,14 @@ p {
                   font-family: sans-serif;
 
                 }*/
-li {
-                  line-height: 2;
-                  font-size: 1.2em;
+/*li {
+                  line-height: 2.5;
+                  font-size: 1.3em;
                   color: white;
                   font-family: sans-serif;
                   list-style: none;
 
-}
+}*/
 span{
                   color: rgb(255, 197, 143);
                   font-weight: bold;
